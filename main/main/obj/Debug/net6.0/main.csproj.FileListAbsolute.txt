@@ -1,0 +1,17 @@
+C:\Users\kawasaji\Documents\cs_exam\main\main\bin\Debug\net6.0\main.exe
+C:\Users\kawasaji\Documents\cs_exam\main\main\bin\Debug\net6.0\main.deps.json
+C:\Users\kawasaji\Documents\cs_exam\main\main\bin\Debug\net6.0\main.runtimeconfig.json
+C:\Users\kawasaji\Documents\cs_exam\main\main\bin\Debug\net6.0\main.dll
+C:\Users\kawasaji\Documents\cs_exam\main\main\bin\Debug\net6.0\main.pdb
+C:\Users\kawasaji\Documents\cs_exam\main\main\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.csproj.AssemblyReference.cache
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.AssemblyInfoInputs.cache
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.AssemblyInfo.cs
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.csproj.CoreCompileInputs.cache
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.csproj.CopyComplete
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.dll
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\refint\main.dll
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.pdb
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\main.genruntimeconfig.cache
+C:\Users\kawasaji\Documents\cs_exam\main\main\obj\Debug\net6.0\ref\main.dll
