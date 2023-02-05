@@ -131,7 +131,28 @@ namespace DictionaryService
 
         public void FindWord()
         {
-            
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            StringBuilder tmp = new();
+            string tmp_copy;
+            bool key = true;
+            int i = 0;
+
+            Console.Write($"enter word on {FirstLanguageName.ToUpper()} to find its translation~# ");
+            tmp_copy = Console.ReadLine();
+
+            tmp = new StringBuilder(tmp_copy);
+
+            while (key)
+            {
+                if (translationPairs[i].FirstLanguageTranslation == tmp)
+                {
+                    translationPairs[i].PrintPairs();
+                    key = false;
+                }
+                i++;
+            }
         }
 
         public void SaveToFile()
