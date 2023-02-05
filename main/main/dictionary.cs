@@ -45,18 +45,51 @@ namespace DictionaryService
         }
         public void RemoveWord()
         {
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+            int index = new();
+
+            PrintDictionary();
+
+            Console.Write("enter index~# ");
+
+            index = Convert.ToInt32(Console.ReadLine());
+
+            translationPairs.RemoveAt(index);
         }
 
         public void AddWord()
         {
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+            int indx = new();
+            TranslationPair tmp = new();
+
+            tmp = tmp.CreateTraslationPair();
+
+            translationPairs.Add(tmp);
         }
         
 
         public void ChangeWord()
         {
-            
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            int indx = new();
+            string tmp_copy;
+            StringBuilder new_word;
+
+            Console.Write("enter word's index~# ");
+            indx = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("enter new word~# ");
+            tmp_copy = Console.ReadLine();
+
+            new_word = new StringBuilder(tmp_copy);
+            translationPairs[indx].LastLanguageTranslation.Append(new_word);
         }
 
         public void EditDictionary()
