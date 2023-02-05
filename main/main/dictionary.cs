@@ -94,8 +94,39 @@ namespace DictionaryService
 
         public void EditDictionary()
         {
-            
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+            int choice = new();
+
+            Console.Clear();
+
+            Console.WriteLine(" ~ Edititng Menu ~\n" +
+                "[1] - Add word\n" +
+                "[2] - Change word\n" +
+                "[3] - Remove word\n" +
+                "[4] - Exit\n" +
+                "\n~# "
+                );
+            choice = Convert.ToInt32(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1:
+                    AddWord();
+                    break;
+                case 2:
+                    ChangeWord();
+                    break;
+                case 3:
+                    RemoveWord();
+                    break;
+                case 4:
+                    return;
+                default:
+                    Console.WriteLine("Error");
+                    break;
+            }
         }
 
         public void FindWord()
